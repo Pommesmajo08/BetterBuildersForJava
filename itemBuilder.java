@@ -35,8 +35,8 @@ public class itemBuilder {
         itemMeta.addItemFlags(s);
         return this;
     }
-    public itemBuilder addEnchantment(Enchantment enchantment, int duration, boolean IgnoreMaxLevel){
-        itemMeta.addEnchant(enchantment, duration, IgnoreMaxLevel);
+    public itemBuilder addEnchantment(Enchantment enchantment, int level, boolean IgnoreMaxLevel){
+        itemMeta.addEnchant(enchantment, level, IgnoreMaxLevel);
         return this;
     }
     public ItemStack build(){
